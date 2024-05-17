@@ -1,0 +1,18 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumMobileAutomationSuite">
+<listeners>
+    <listener class-name="listeners.CustomMethodListener"/>
+    <listener class-name="listeners.CustomReporter "/>
+    <listener class-name="listeners.TestExecutionListener"/>
+</listeners>
+    <test name="LoginTest">
+        <!-- Add test classes or methods here -->
+        <classes>
+            <class name=" testcase.LoginPageTest"/>
+            <!-- Add more classes if needed -->
+        </classes>
+
+    </test>
+
+</suite>
